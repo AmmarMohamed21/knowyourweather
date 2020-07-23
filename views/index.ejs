@@ -1,0 +1,12 @@
+<%- include('layouts/header') %>
+
+<div id="main">
+    <form id="application">
+        <label for="cityname">Enter the City name:</label><br>
+        <input type="text" name="text" id="cityname"><br>
+        <button type="button" onclick="printanswer(cityname)">submit</button>
+    </form>
+</div>
+<div id="result"></div>
+
+<%- include('layouts/footer') %>
