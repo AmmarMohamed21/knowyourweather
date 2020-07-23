@@ -1,12 +1,19 @@
 <%- include('layouts/header') %>
 
 <div id="main">
-    <form id="application">
+    <form id="entercity">
         <label for="cityname">Enter the City name:</label><br>
         <input type="text" name="text" id="cityname"><br>
-        <button type="button" onclick="printanswer(cityname)">submit</button>
+        <button type="button" onclick="printanswer(cityname)">Get Weather</button>
     </form>
+    <div id="result">
+        <p id="tempnow">Temperature Now: </p>
+        <p id="tempmax">Max Temperature: </p>
+        <p id="tempmin">Min Temperature: </p>
+        <p id="hum">Humidity: </p>
+        <p id="desc">Describtion: </p>
+    </div>
 </div>
-<div id="result"></div>
+
 
 <%- include('layouts/footer') %>
