@@ -7,10 +7,45 @@ body {
     position: absolute;
     left:50%;
     top:50%;
+    padding:15px;
     transform: translate(-50%, -50%);
-    height: 800px;
-    width: 700px;
+    height: 600px;
+    width: 800px;
     border:2px solid white;
     border-radius: 10px;
     align-content: center;
+}
+#cityname
+{
+    
+    border-radius: 5px;
+    height: 40px;
+}
+
+#entercity
+{
+    width:500px;
+    position: absolute;
+    left:200px;
+    top:10px;
+    height:200px;
+    padding:15px;
+    font: 20pt sans-serif;
+}
+#result
+{
+    width:500px;
+    position: absolute;
+    left:200px;
+    top:150px;
+    padding:15px;
+    font: 15pt sans-serif;
+}
+button
+{
+    height:40px;
+    width:100px;
+    background-color: skyblue;
+    border-radius: 5px;
+    font: 10pt sans-serif;
 }
